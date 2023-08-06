@@ -1,0 +1,961 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Mosa.DeviceSystem/2.4.0.1030": {
+        "type": "package",
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "compile": {
+          "lib/net7.0/Mosa.DeviceDriver.dll": {},
+          "lib/net7.0/Mosa.DeviceSystem.dll": {},
+          "lib/net7.0/Mosa.FileSystem.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.DeviceDriver.dll": {},
+          "lib/net7.0/Mosa.DeviceSystem.dll": {},
+          "lib/net7.0/Mosa.FileSystem.dll": {}
+        }
+      },
+      "Mosa.Kernel.x86/2.4.0.1030": {
+        "type": "package",
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Platform.x86": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "compile": {
+          "lib/net7.0/Mosa.Kernel.x86.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Kernel.x86.dll": {}
+        }
+      },
+      "Mosa.Korlib/2.4.0.1030": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Mosa.Plug.Korlib.dll": {},
+          "lib/net7.0/System.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Plug.Korlib.dll": {},
+          "lib/net7.0/System.Runtime.dll": {}
+        }
+      },
+      "Mosa.Platform.x86/2.4.0.1030": {
+        "type": "package",
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "compile": {
+          "lib/net7.0/Mosa.Plug.Korlib.x86.dll": {},
+          "lib/net7.0/Mosa.Runtime.x86.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Plug.Korlib.x86.dll": {},
+          "lib/net7.0/Mosa.Runtime.x86.dll": {}
+        }
+      },
+      "Mosa.Runtime/2.4.0.1030": {
+        "type": "package",
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030"
+        },
+        "compile": {
+          "lib/net7.0/Mosa.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Runtime.dll": {}
+        }
+      },
+      "Mosa.Tools.Package/2.4.0.1030": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/net7.0/Tools/Avalonia.Animation.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Animation.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Base.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Base.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Controls.DataGrid.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Controls.DataGrid.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Controls.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Controls.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.DesignerSupport.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.DesignerSupport.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Desktop.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Desktop.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.DesktopRuntime.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.DesktopRuntime.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Diagnostics.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Diagnostics.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Dialogs.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Dialogs.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.FreeDesktop.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.FreeDesktop.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Input.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Input.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Interactivity.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Interactivity.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Layout.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Layout.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Markup.Xaml.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Markup.Xaml.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Markup.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Markup.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.MicroCom.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.MicroCom.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Native.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Native.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.OpenGL.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.OpenGL.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Remote.Protocol.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Remote.Protocol.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Skia.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Skia.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Styling.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Styling.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Themes.Default.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Themes.Default.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Themes.Fluent.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Themes.Fluent.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Visuals.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Visuals.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.Win32.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Win32.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.X11.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.X11.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Avalonia.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.dll"
+          },
+          "contentFiles/any/net7.0/Tools/HarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/HarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Compiler.Common.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.Common.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Compiler.Framework.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.Framework.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Compiler.MosaTypeSystem.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.MosaTypeSystem.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Platform.ARMv8A32.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Platform.ARMv8A32.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Platform.x64.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Platform.x64.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Platform.x86.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Platform.x86.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.deps.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.exe"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.pdb"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.runtimeconfig.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.deps.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.exe"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.pdb"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.runtimeconfig.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.deps.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.exe"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.pdb"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.runtimeconfig.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.deps.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.exe"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.pdb"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.deps.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.exe"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.pdb"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.runtimeconfig.json"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.BootImage.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.BootImage.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.Configuration.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Configuration.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.Disassembler.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Disassembler.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.FileSystem.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.FileSystem.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.Launcher.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Launcher.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Mosa.Utility.RSP.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.RSP.dll"
+          },
+          "contentFiles/any/net7.0/Tools/PriorityQueue.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/PriorityQueue.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Reko.Arch.Arm.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Arch.Arm.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Reko.Arch.X86.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Arch.X86.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Reko.Core.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Core.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Reko.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.dll"
+          },
+          "contentFiles/any/net7.0/Tools/SkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/SkiaSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/System.Reactive.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/System.Reactive.dll"
+          },
+          "contentFiles/any/net7.0/Tools/Tmds.DBus.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Tmds.DBus.dll"
+          },
+          "contentFiles/any/net7.0/Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll"
+          },
+          "contentFiles/any/net7.0/Tools/WinFormsUI.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/WinFormsUI.dll"
+          },
+          "contentFiles/any/net7.0/Tools/dnlib.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/dnlib.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-arm/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/linux-x64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-x64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/osx/native/libAvaloniaNative.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libAvaloniaNative.dylib"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libHarfBuzzSharp.dylib"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/osx/native/libSkiaSharp.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libSkiaSharp.dylib"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/av_libglesv2.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/libSkiaSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-x64/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x64/native/libSkiaSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x86/native/libSkiaSharp.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win7-x64/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win7-x64/native/av_libglesv2.dll"
+          },
+          "contentFiles/any/net7.0/Tools/runtimes/win7-x86/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win7-x86/native/av_libglesv2.dll"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.DeviceSystem/2.4.0.1030": {
+      "sha512": "crTReRCia1eftJlrIc9mfZFv52eqLFffkXSvHIIsrG1k92z1O8mVdgjEo1CSDgRop2135rBgV98VgjMsLHEGjA==",
+      "type": "package",
+      "path": "mosa.devicesystem/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net7.0/Mosa.DeviceDriver.dll",
+        "lib/net7.0/Mosa.DeviceSystem.dll",
+        "lib/net7.0/Mosa.FileSystem.dll",
+        "mosa.devicesystem.2.4.0.1030.nupkg.sha512",
+        "mosa.devicesystem.nuspec"
+      ]
+    },
+    "Mosa.Kernel.x86/2.4.0.1030": {
+      "sha512": "dCPC9B3inpYCJ8L50QjdeUz6Jathu+OoZn0RrSIO3By+6GtXVRbpyWqCCg2gRsNzYAc8cg0tdPFwAnvQIjUkug==",
+      "type": "package",
+      "path": "mosa.kernel.x86/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net7.0/Mosa.Kernel.x86.dll",
+        "mosa.kernel.x86.2.4.0.1030.nupkg.sha512",
+        "mosa.kernel.x86.nuspec"
+      ]
+    },
+    "Mosa.Korlib/2.4.0.1030": {
+      "sha512": "T/7RcxPxtIMHyz73uhfd30nDONy0IMlm0Go4+eZvGpwFJXtJA4DtjCDilucT6Rjtz/onjcs22cxXbXPD6/vIGQ==",
+      "type": "package",
+      "path": "mosa.korlib/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net7.0/Mosa.Plug.Korlib.dll",
+        "lib/net7.0/System.Runtime.dll",
+        "mosa.korlib.2.4.0.1030.nupkg.sha512",
+        "mosa.korlib.nuspec"
+      ]
+    },
+    "Mosa.Platform.x86/2.4.0.1030": {
+      "sha512": "tl+Z6BLzhp/JdvyCvUIDfXGEdX5o4xpeXkpwvdoMZxVfwsWaQRI8oJ4lUtmKY2h8LdjNx8gEHLZMvVq42I3VDA==",
+      "type": "package",
+      "path": "mosa.platform.x86/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net7.0/Mosa.Plug.Korlib.x86.dll",
+        "lib/net7.0/Mosa.Runtime.x86.dll",
+        "mosa.platform.x86.2.4.0.1030.nupkg.sha512",
+        "mosa.platform.x86.nuspec"
+      ]
+    },
+    "Mosa.Runtime/2.4.0.1030": {
+      "sha512": "YSJQWdvoXh7BusfkgeYiVRGJo895WdY6/lEfYnrijcfRul3EVXcvEHH9yf7qjtR4kn4jVKL1+VX0ltEWHP6ETA==",
+      "type": "package",
+      "path": "mosa.runtime/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net7.0/Mosa.Runtime.dll",
+        "mosa.runtime.2.4.0.1030.nupkg.sha512",
+        "mosa.runtime.nuspec"
+      ]
+    },
+    "Mosa.Tools.Package/2.4.0.1030": {
+      "sha512": "IAT5zzuObC1id9T9wG5F9s/B7fUSxeUXIVRYp2H6X7XoUqXLjRs0pFuuRH0yKQX1cHj+BUPCy0HWLLbdTEeBeA==",
+      "type": "package",
+      "path": "mosa.tools.package/2.4.0.1030",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/net7.0/Tools/Avalonia.Animation.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Base.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Controls.DataGrid.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Controls.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.DesignerSupport.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Desktop.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.DesktopRuntime.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Diagnostics.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Dialogs.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.FreeDesktop.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Input.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Interactivity.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Layout.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Markup.Xaml.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Markup.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.MicroCom.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Native.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.OpenGL.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Remote.Protocol.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Skia.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Styling.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Themes.Default.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Themes.Fluent.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Visuals.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.Win32.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.X11.dll",
+        "contentFiles/any/net7.0/Tools/Avalonia.dll",
+        "contentFiles/any/net7.0/Tools/HarfBuzzSharp.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Compiler.Common.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Compiler.Framework.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Compiler.MosaTypeSystem.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Platform.ARMv8A32.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Platform.x64.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Platform.x86.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.deps.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.exe",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.pdb",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Compiler.runtimeconfig.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.deps.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.exe",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.pdb",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Debugger.runtimeconfig.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.deps.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.exe",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.pdb",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Explorer.runtimeconfig.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.deps.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.exe",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.pdb",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.deps.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.exe",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.pdb",
+        "contentFiles/any/net7.0/Tools/Mosa.Tool.Launcher.runtimeconfig.json",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.BootImage.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.Configuration.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.Disassembler.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.FileSystem.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.Launcher.dll",
+        "contentFiles/any/net7.0/Tools/Mosa.Utility.RSP.dll",
+        "contentFiles/any/net7.0/Tools/PriorityQueue.dll",
+        "contentFiles/any/net7.0/Tools/Reko.Arch.Arm.dll",
+        "contentFiles/any/net7.0/Tools/Reko.Arch.X86.dll",
+        "contentFiles/any/net7.0/Tools/Reko.Core.dll",
+        "contentFiles/any/net7.0/Tools/Reko.dll",
+        "contentFiles/any/net7.0/Tools/SkiaSharp.dll",
+        "contentFiles/any/net7.0/Tools/System.Reactive.dll",
+        "contentFiles/any/net7.0/Tools/Tmds.DBus.dll",
+        "contentFiles/any/net7.0/Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll",
+        "contentFiles/any/net7.0/Tools/WinFormsUI.dll",
+        "contentFiles/any/net7.0/Tools/dnlib.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-arm/native/libSkiaSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-arm64/native/libSkiaSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/linux-x64/native/libSkiaSharp.so",
+        "contentFiles/any/net7.0/Tools/runtimes/osx/native/libAvaloniaNative.dylib",
+        "contentFiles/any/net7.0/Tools/runtimes/osx/native/libHarfBuzzSharp.dylib",
+        "contentFiles/any/net7.0/Tools/runtimes/osx/native/libSkiaSharp.dylib",
+        "contentFiles/any/net7.0/Tools/runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/av_libglesv2.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-arm64/native/libSkiaSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-x64/native/libSkiaSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win7-x64/native/av_libglesv2.dll",
+        "contentFiles/any/net7.0/Tools/runtimes/win7-x86/native/av_libglesv2.dll",
+        "images/Mosa Icon.png",
+        "mosa.tools.package.2.4.0.1030.nupkg.sha512",
+        "mosa.tools.package.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Mosa.DeviceSystem >= *",
+      "Mosa.Kernel.x86 >= *",
+      "Mosa.Korlib >= *",
+      "Mosa.Platform.x86 >= *",
+      "Mosa.Runtime >= *",
+      "Mosa.Tools.Package >= *"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GitHub\\GoDOS\\GoDOS\\GoDOS.csproj",
+      "projectName": "GoDOS",
+      "projectPath": "D:\\GitHub\\GoDOS\\GoDOS\\GoDOS.csproj",
+      "packagesPath": "C:\\Users\\Owen2k6\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\GoDOS\\GoDOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Owen2k6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Owen2k6\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Mosa.DeviceSystem": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Kernel.x86": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Korlib": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Platform.x86": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Runtime": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Tools.Package": {
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

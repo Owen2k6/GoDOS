@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZgcJYLdFtyOkYJoSKtwIP0jhtn759IFv70RHumxFPI7KZx4l1md1AaFJ7yeABHIbFsa04KNY67jUxCjpWdphFA==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\GoDOS\\GoDOS\\GoDOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.devicesystem\\2.4.0.1030\\mosa.devicesystem.2.4.0.1030.nupkg.sha512",
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.kernel.x86\\2.4.0.1030\\mosa.kernel.x86.2.4.0.1030.nupkg.sha512",
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.korlib\\2.4.0.1030\\mosa.korlib.2.4.0.1030.nupkg.sha512",
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.platform.x86\\2.4.0.1030\\mosa.platform.x86.2.4.0.1030.nupkg.sha512",
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.runtime\\2.4.0.1030\\mosa.runtime.2.4.0.1030.nupkg.sha512",
+    "C:\\Users\\Owen2k6\\.nuget\\packages\\mosa.tools.package\\2.4.0.1030\\mosa.tools.package.2.4.0.1030.nupkg.sha512"
+  ],
+  "logs": []
+}

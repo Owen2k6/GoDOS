@@ -1,0 +1,147 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {},
+    ".NETCoreApp,Version=v7.0/": {
+      "GoDOS/1.0.0": {
+        "dependencies": {
+          "Mosa.DeviceSystem": "2.4.0.1030",
+          "Mosa.Kernel.x86": "2.4.0.1030",
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Platform.x86": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030",
+          "Mosa.Tools.Package": "2.4.0.1030"
+        },
+        "runtime": {
+          "GoDOS.dll": {}
+        }
+      },
+      "Mosa.DeviceSystem/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.DeviceDriver.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          },
+          "lib/net7.0/Mosa.DeviceSystem.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          },
+          "lib/net7.0/Mosa.FileSystem.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          }
+        }
+      },
+      "Mosa.Kernel.x86/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Platform.x86": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Kernel.x86.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          }
+        }
+      },
+      "Mosa.Korlib/2.4.0.1030": {
+        "runtime": {
+          "lib/net7.0/Mosa.Plug.Korlib.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          },
+          "lib/net7.0/System.Runtime.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Mosa.Platform.x86/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030",
+          "Mosa.Runtime": "2.4.0.1030"
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Plug.Korlib.x86.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          },
+          "lib/net7.0/Mosa.Runtime.x86.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          }
+        }
+      },
+      "Mosa.Runtime/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Korlib": "2.4.0.1030"
+        },
+        "runtime": {
+          "lib/net7.0/Mosa.Runtime.dll": {
+            "assemblyVersion": "2.4.0.1030",
+            "fileVersion": "2.4.0.1030"
+          }
+        }
+      },
+      "Mosa.Tools.Package/2.4.0.1030": {}
+    }
+  },
+  "libraries": {
+    "GoDOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.DeviceSystem/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-crTReRCia1eftJlrIc9mfZFv52eqLFffkXSvHIIsrG1k92z1O8mVdgjEo1CSDgRop2135rBgV98VgjMsLHEGjA==",
+      "path": "mosa.devicesystem/2.4.0.1030",
+      "hashPath": "mosa.devicesystem.2.4.0.1030.nupkg.sha512"
+    },
+    "Mosa.Kernel.x86/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dCPC9B3inpYCJ8L50QjdeUz6Jathu+OoZn0RrSIO3By+6GtXVRbpyWqCCg2gRsNzYAc8cg0tdPFwAnvQIjUkug==",
+      "path": "mosa.kernel.x86/2.4.0.1030",
+      "hashPath": "mosa.kernel.x86.2.4.0.1030.nupkg.sha512"
+    },
+    "Mosa.Korlib/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/7RcxPxtIMHyz73uhfd30nDONy0IMlm0Go4+eZvGpwFJXtJA4DtjCDilucT6Rjtz/onjcs22cxXbXPD6/vIGQ==",
+      "path": "mosa.korlib/2.4.0.1030",
+      "hashPath": "mosa.korlib.2.4.0.1030.nupkg.sha512"
+    },
+    "Mosa.Platform.x86/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tl+Z6BLzhp/JdvyCvUIDfXGEdX5o4xpeXkpwvdoMZxVfwsWaQRI8oJ4lUtmKY2h8LdjNx8gEHLZMvVq42I3VDA==",
+      "path": "mosa.platform.x86/2.4.0.1030",
+      "hashPath": "mosa.platform.x86.2.4.0.1030.nupkg.sha512"
+    },
+    "Mosa.Runtime/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YSJQWdvoXh7BusfkgeYiVRGJo895WdY6/lEfYnrijcfRul3EVXcvEHH9yf7qjtR4kn4jVKL1+VX0ltEWHP6ETA==",
+      "path": "mosa.runtime/2.4.0.1030",
+      "hashPath": "mosa.runtime.2.4.0.1030.nupkg.sha512"
+    },
+    "Mosa.Tools.Package/2.4.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IAT5zzuObC1id9T9wG5F9s/B7fUSxeUXIVRYp2H6X7XoUqXLjRs0pFuuRH0yKQX1cHj+BUPCy0HWLLbdTEeBeA==",
+      "path": "mosa.tools.package/2.4.0.1030",
+      "hashPath": "mosa.tools.package.2.4.0.1030.nupkg.sha512"
+    }
+  }
+}

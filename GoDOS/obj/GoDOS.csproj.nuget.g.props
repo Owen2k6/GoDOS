@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Owen2k6\.nuget\packages\;D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Owen2k6\.nuget\packages\" />
+    <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+    <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Animation.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Animation.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Animation.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Animation.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Base.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Base.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Base.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Base.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Controls.DataGrid.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Controls.DataGrid.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Controls.DataGrid.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Controls.DataGrid.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Controls.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Controls.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Controls.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Controls.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.DesignerSupport.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.DesignerSupport.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.DesignerSupport.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.DesignerSupport.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Desktop.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Desktop.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Desktop.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Desktop.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.DesktopRuntime.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.DesktopRuntime.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.DesktopRuntime.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.DesktopRuntime.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Diagnostics.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Diagnostics.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Diagnostics.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Diagnostics.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Dialogs.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Dialogs.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Dialogs.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Dialogs.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.FreeDesktop.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.FreeDesktop.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.FreeDesktop.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.FreeDesktop.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Input.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Input.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Input.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Input.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Interactivity.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Interactivity.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Interactivity.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Interactivity.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Layout.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Layout.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Layout.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Layout.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Markup.Xaml.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Markup.Xaml.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Markup.Xaml.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Markup.Xaml.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Markup.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Markup.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Markup.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Markup.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.MicroCom.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.MicroCom.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.MicroCom.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.MicroCom.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Native.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Native.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Native.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Native.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.OpenGL.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.OpenGL.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.OpenGL.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.OpenGL.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Remote.Protocol.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Remote.Protocol.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Remote.Protocol.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Remote.Protocol.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Skia.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Skia.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Skia.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Skia.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Styling.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Styling.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Styling.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Styling.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Themes.Default.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Themes.Default.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Themes.Default.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Themes.Default.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Themes.Fluent.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Themes.Fluent.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Themes.Fluent.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Themes.Fluent.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Visuals.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Visuals.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Visuals.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Visuals.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Win32.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.Win32.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.Win32.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.Win32.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.X11.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.X11.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.X11.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.X11.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Avalonia.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Avalonia.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Avalonia.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\HarfBuzzSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\HarfBuzzSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\HarfBuzzSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\HarfBuzzSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.Common.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.Common.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Compiler.Common.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Compiler.Common.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.Framework.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.Framework.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Compiler.Framework.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Compiler.Framework.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.MosaTypeSystem.CLR.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.MosaTypeSystem.CLR.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Compiler.MosaTypeSystem.CLR.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Compiler.MosaTypeSystem.CLR.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.MosaTypeSystem.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Compiler.MosaTypeSystem.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Compiler.MosaTypeSystem.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Compiler.MosaTypeSystem.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.ARMv8A32.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.ARMv8A32.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Platform.ARMv8A32.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Platform.ARMv8A32.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.x64.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.x64.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Platform.x64.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Platform.x64.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.x86.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Platform.x86.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Platform.x86.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Platform.x86.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.deps.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.deps.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Compiler.deps.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Compiler.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Compiler.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Compiler.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.exe" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.exe')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Compiler.exe</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Compiler.exe</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.pdb" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.pdb')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Compiler.pdb</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Compiler.pdb</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Compiler.runtimeconfig.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Compiler.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Compiler.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.deps.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.deps.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Debugger.deps.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Debugger.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Debugger.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Debugger.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.exe" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.exe')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Debugger.exe</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Debugger.exe</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.pdb" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.pdb')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Debugger.pdb</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Debugger.pdb</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Debugger.runtimeconfig.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Debugger.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Debugger.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.deps.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.deps.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Explorer.deps.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Explorer.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Explorer.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Explorer.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.exe" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.exe')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Explorer.exe</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Explorer.exe</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.pdb" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.pdb')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Explorer.pdb</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Explorer.pdb</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Explorer.runtimeconfig.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Explorer.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Explorer.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.deps.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.deps.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.Console.deps.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.Console.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.Console.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.Console.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.exe" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.exe')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.Console.exe</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.Console.exe</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.pdb" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.pdb')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.Console.pdb</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.Console.pdb</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.Console.runtimeconfig.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.Console.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.Console.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.deps.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.deps.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.deps.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.deps.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.exe" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.exe')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.exe</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.exe</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.pdb" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.pdb')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.pdb</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.pdb</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.runtimeconfig.json" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Tool.Launcher.runtimeconfig.json')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Tool.Launcher.runtimeconfig.json</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Tool.Launcher.runtimeconfig.json</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.BootImage.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.BootImage.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.BootImage.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.BootImage.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Configuration.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Configuration.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.Configuration.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.Configuration.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Disassembler.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Disassembler.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.Disassembler.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.Disassembler.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.FileSystem.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.FileSystem.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.FileSystem.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.FileSystem.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Launcher.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.Launcher.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.Launcher.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.Launcher.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.RSP.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Mosa.Utility.RSP.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Mosa.Utility.RSP.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Mosa.Utility.RSP.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\PriorityQueue.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\PriorityQueue.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\PriorityQueue.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\PriorityQueue.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Arch.Arm.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Arch.Arm.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Reko.Arch.Arm.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Reko.Arch.Arm.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Arch.X86.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Arch.X86.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Reko.Arch.X86.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Reko.Arch.X86.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Core.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.Core.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Reko.Core.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Reko.Core.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Reko.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Reko.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Reko.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\SkiaSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\SkiaSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\SkiaSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\SkiaSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\System.Reactive.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\System.Reactive.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\System.Reactive.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\System.Reactive.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Tmds.DBus.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\Tmds.DBus.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\Tmds.DBus.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\Tmds.DBus.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\WinFormsUI.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\WinFormsUI.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\WinFormsUI.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\WinFormsUI.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\dnlib.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\dnlib.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\dnlib.dll</TargetPath>
+      <DestinationSubDirectory>Tools\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\dnlib.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm\native\libHarfBuzzSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm\native\libHarfBuzzSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-arm\native\libHarfBuzzSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-arm\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-arm\native\libHarfBuzzSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm\native\libSkiaSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm\native\libSkiaSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-arm\native\libSkiaSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-arm\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-arm\native\libSkiaSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm64\native\libHarfBuzzSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm64\native\libHarfBuzzSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-arm64\native\libHarfBuzzSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-arm64\native\libHarfBuzzSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm64\native\libSkiaSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-arm64\native\libSkiaSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-arm64\native\libSkiaSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-arm64\native\libSkiaSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-musl-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-musl-x64\native\libSkiaSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-musl-x64\native\libSkiaSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-musl-x64\native\libSkiaSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-musl-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-musl-x64\native\libSkiaSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-x64\native\libHarfBuzzSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-x64\native\libHarfBuzzSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-x64\native\libHarfBuzzSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-x64\native\libHarfBuzzSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-x64\native\libSkiaSharp.so" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\linux-x64\native\libSkiaSharp.so')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\linux-x64\native\libSkiaSharp.so</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\linux-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\linux-x64\native\libSkiaSharp.so</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libAvaloniaNative.dylib" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libAvaloniaNative.dylib')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\osx\native\libAvaloniaNative.dylib</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\osx\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\osx\native\libAvaloniaNative.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libHarfBuzzSharp.dylib" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libHarfBuzzSharp.dylib')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\osx\native\libHarfBuzzSharp.dylib</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\osx\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\osx\native\libHarfBuzzSharp.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libSkiaSharp.dylib" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\osx\native\libSkiaSharp.dylib')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\osx\native\libSkiaSharp.dylib</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\osx\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\osx\native\libSkiaSharp.dylib</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\unix\lib\netcoreapp2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\av_libglesv2.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\av_libglesv2.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-arm64\native\av_libglesv2.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-arm64\native\av_libglesv2.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\libHarfBuzzSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\libHarfBuzzSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-arm64\native\libHarfBuzzSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-arm64\native\libHarfBuzzSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\libSkiaSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-arm64\native\libSkiaSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-arm64\native\libSkiaSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-arm64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-arm64\native\libSkiaSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x64\native\libHarfBuzzSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x64\native\libHarfBuzzSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-x64\native\libHarfBuzzSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-x64\native\libHarfBuzzSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x64\native\libSkiaSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x64\native\libSkiaSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-x64\native\libSkiaSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-x64\native\libSkiaSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x86\native\libHarfBuzzSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x86\native\libHarfBuzzSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-x86\native\libHarfBuzzSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-x86\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-x86\native\libHarfBuzzSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x86\native\libSkiaSharp.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win-x86\native\libSkiaSharp.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win-x86\native\libSkiaSharp.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win-x86\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win-x86\native\libSkiaSharp.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win\lib\netcoreapp2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win\lib\netcoreapp2.0\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win7-x64\native\av_libglesv2.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win7-x64\native\av_libglesv2.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win7-x64\native\av_libglesv2.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win7-x64\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win7-x64\native\av_libglesv2.dll</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win7-x86\native\av_libglesv2.dll" Condition="Exists('$(NuGetPackageRoot)mosa.tools.package\2.4.0.1030\contentFiles\any\net7.0\Tools\runtimes\win7-x86\native\av_libglesv2.dll')">
+      <NuGetPackageId>Mosa.Tools.Package</NuGetPackageId>
+      <NuGetPackageVersion>2.4.0.1030</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>Tools\runtimes\win7-x86\native\av_libglesv2.dll</TargetPath>
+      <DestinationSubDirectory>Tools\runtimes\win7-x86\native\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>Tools\runtimes\win7-x86\native\av_libglesv2.dll</Link>
+    </None>
+  </ItemGroup>
+</Project>

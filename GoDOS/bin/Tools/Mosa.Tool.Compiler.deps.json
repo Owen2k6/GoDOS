@@ -1,0 +1,203 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Mosa.Tool.Compiler/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030",
+          "Mosa.Compiler.Framework": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem.CLR": "2.4.0.1030",
+          "Mosa.Platform.ARMv8A32": "2.4.0.1030",
+          "Mosa.Platform.x64": "2.4.0.1030",
+          "Mosa.Platform.x86": "2.4.0.1030",
+          "Mosa.Utility.Configuration": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Tool.Compiler.dll": {}
+        }
+      },
+      "dnlib/3.6.0": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dnlib.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
+          }
+        }
+      },
+      "OptimizedPriorityQueue/5.1.0": {
+        "runtime": {
+          "lib/netstandard1.0/PriorityQueue.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Threading.Channels/7.0.0": {},
+      "Mosa.Compiler.Common/2.4.0.1030": {
+        "runtime": {
+          "Mosa.Compiler.Common.dll": {}
+        }
+      },
+      "Mosa.Compiler.Framework/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030",
+          "Mosa.Utility.Configuration": "2.4.0.1030",
+          "OptimizedPriorityQueue": "5.1.0",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "runtime": {
+          "Mosa.Compiler.Framework.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem.CLR/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030",
+          "dnlib": "3.6.0"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.CLR.dll": {}
+        }
+      },
+      "Mosa.Platform.ARMv8A32/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030",
+          "Mosa.Compiler.Framework": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Platform.ARMv8A32.dll": {}
+        }
+      },
+      "Mosa.Platform.x64/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030",
+          "Mosa.Compiler.Framework": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Platform.x64.dll": {}
+        }
+      },
+      "Mosa.Platform.x86/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030",
+          "Mosa.Compiler.Framework": "2.4.0.1030",
+          "Mosa.Compiler.MosaTypeSystem": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Platform.x86.dll": {}
+        }
+      },
+      "Mosa.Utility.Configuration/2.4.0.1030": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.4.0.1030"
+        },
+        "runtime": {
+          "Mosa.Utility.Configuration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Tool.Compiler/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dnlib/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFegKA+GR8a2mEzYH02TueIF1nNQ5lULAd9hgNwt6VBY2qNNZDYSwr63tMpKN0Lg+goDaZnaZczmP0/pDz2gaA==",
+      "path": "dnlib/3.6.0",
+      "hashPath": "dnlib.3.6.0.nupkg.sha512"
+    },
+    "OptimizedPriorityQueue/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0AnX6kAs0GiLrSqrHKe5mpQhJSHTmXeqLNucV2CxGATP/I9UzLMc1N4MtS/z8qB6mcgX61OjHdY3YbOmETGs+A==",
+      "path": "optimizedpriorityqueue/5.1.0",
+      "hashPath": "optimizedpriorityqueue.5.1.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Threading.Channels/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "path": "system.threading.channels/7.0.0",
+      "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
+    },
+    "Mosa.Compiler.Common/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Framework/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem.CLR/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Platform.ARMv8A32/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Platform.x64/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Platform.x86/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.Configuration/2.4.0.1030": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

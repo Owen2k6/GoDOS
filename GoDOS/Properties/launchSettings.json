@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"GoDOS": {
+			"commandName": "Executable",
+			"executablePath": "dotnet",
+			"commandLineArgs": "Tools/Mosa.Tool.Launcher.dll GoDOS.dll",
+			"workingDirectory": "bin"
+		}
+	}
+}
